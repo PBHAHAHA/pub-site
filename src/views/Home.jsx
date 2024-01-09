@@ -1,14 +1,14 @@
 import axios from 'axios';
 import { Fragment, useCallback, useEffect, useState } from 'react';
-import HeadTagEditor from './head-tag-editor';
-import ErrorPage from './error-page';
-import ThemeChanger from './theme-changer';
-import AvatarCard from './avatar-card';
-import Details from './details';
-import Skill from './skill';
-import Project from './project';
-import Blog from './blog';
-import Footer from './footer';
+import HeadTagEditor from '@/components/head-tag-editor';
+import ErrorPage from '@/components/error-page';
+import ThemeChanger from '@/components/theme-changer';
+import AvatarCard from '@/components/avatar-card';
+import Details from '@/components/details';
+import Skill from '@/components/skill';
+import Project from '@/components/project';
+import Blog from '@/components/blog';
+import Footer from '@/components/footer';
 import Avatar from '@/assets/imgs/avatar.jpg';
 import {
   genericError,
@@ -23,7 +23,7 @@ import { HelmetProvider } from 'react-helmet-async';
 // import PropTypes from 'prop-types';
 import '../assets/index.css';
 import { formatDistance } from 'date-fns';
-import ExternalProject from './external-project';
+import ExternalProject from '@/components/external-project';
 
 const bgColor = 'bg-base-300';
 

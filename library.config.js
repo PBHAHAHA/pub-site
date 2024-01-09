@@ -15,7 +15,7 @@ export default defineConfig({
   },
   build: {
     lib: {
-      entry: path.resolve(__dirname, 'src/components/Home.jsx'),
+      entry: path.resolve(__dirname, 'src/views/Home.jsx'),
       name: 'Pub的个人小站',
       fileName: (format) => `gitprofile.${format}.js`,
     },

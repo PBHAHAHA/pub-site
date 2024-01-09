@@ -1,5 +1,5 @@
 import config from '../gitprofile.config';
-import Home from './components/Home';
+import Home from './views/Home';
 
 function App() {
   return <Home config={config} />;
